@@ -1,0 +1,59 @@
+#include<stdio.h>
+
+int main()
+{
+   
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+       {
+         if((i+j)<=6)
+        
+            printf("R ");
+         else
+        printf("  ");
+        }
+        printf("\n");
+    }
+    
+  for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+       {
+         if(i<=j)
+        
+            printf("R ");
+         else
+        printf("  ");
+        }
+        printf("\n");
+    }
+    // Third program
+     for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+       {
+         if((i+j)>=6)
+        
+            printf("R ");
+         else
+        printf("  ");
+        }
+        printf("\n");
+    }
+  //fourth program
+ for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+       {
+         if(i==3||j==3)
+        
+            printf("R ");
+         else
+        printf("  ");
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
